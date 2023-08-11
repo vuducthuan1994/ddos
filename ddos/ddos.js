@@ -15,7 +15,7 @@ const makeRequest = (novelId, callback) => {
         });
 };
 
-const numRequests = 100000;
+const numRequests = 10000000;
 
 const queue = async.queue((task, callback) => {
     makeRequest(task.novelId, callback);
