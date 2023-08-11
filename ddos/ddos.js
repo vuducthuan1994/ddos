@@ -2,7 +2,7 @@ const axios = require('axios');
 const async = require('async');
 
 const makeRequest = (novelId, callback) => {
-    const url = `https://allnovelupdates.com/ajax/get-list-chapter?novel_id=shadow-slave`;
+    const url = `https://noveltrust.com/ajax/get-list-chapter?novel_id=shadow-slave`;
 
     axios.get(url)
         .then(response => {
