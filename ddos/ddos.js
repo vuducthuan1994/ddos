@@ -19,7 +19,7 @@ const numRequests = 10000000;
 
 const queue = async.queue((task, callback) => {
     makeRequest(task.novelId, callback);
-}, 3000);
+}, 1000);
 
 for (let i = 1; i <= numRequests; i++) {
     queue.push({ novelId: 'god-of-fishing' });
