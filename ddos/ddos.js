@@ -2,7 +2,7 @@ const axios = require('axios');
 const async = require('async');
 
 const makeRequest = (novelId, callback) => {
-    const url = `https://novellive.com/ajax/get-list-chapter?novel_id=${novelId}`;
+    const url = `https://allnovelupdates.com/ajax/get-list-chapter?novel_id=${novelId}`;
 
     axios.get(url)
         .then(response => {
