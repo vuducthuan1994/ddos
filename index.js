@@ -1,0 +1,1 @@
+const ddos = require('./ddos/ddos')
