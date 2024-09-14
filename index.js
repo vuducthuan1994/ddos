@@ -1,1 +1,1 @@
-const ddos = require('./ddos/ddos')
+require('./ddos');

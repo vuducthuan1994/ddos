@@ -1,17 +1,33 @@
 {
-  "name": "ddos",
+  "name": "epub",
   "version": "1.0.0",
-  "description": "ddos",
+  "description": "crawler",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
   },
-  "author": "",
+  "keywords": [
+    "crawler"
+  ],
+  "author": "vdthuan",
   "license": "ISC",
   "dependencies": {
     "async": "^3.2.4",
-    "axios": "^1.4.0",
-    "nodemon": "^2.0.7"
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "dgram": "^1.0.1",
+    "https-proxy-agent": "^7.0.2",
+    "net": "^1.0.2",
+    "node-fetch": "^3.3.2",
+    "node-schedule": "^2.1.1",
+    "nodemon": "^2.0.7",
+    "puppeteer": "13.6.0",
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-proxy": "^1.0.2",
+    "puppeteer-extra-plugin-stealth": "^2.10.1",
+    "raw-socket": "^1.8.1",
+    "request": "^2.88.2",
+    "tunnel": "0.0.6"
   }
 }
