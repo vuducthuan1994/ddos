@@ -15,7 +15,7 @@
   "dependencies": {
     "async": "^3.2.4",
     "axios": "^1.6.2",
-    "cheerio": "^1.0.0-rc.12",
+    "cheerio": "1.0.0-rc.5",
     "dgram": "^1.0.1",
     "https-proxy-agent": "^7.0.2",
     "net": "^1.0.2",
