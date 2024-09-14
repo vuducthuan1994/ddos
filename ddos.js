@@ -1,7 +1,7 @@
 
 const async = require('async');
 const request = require('request');
-const queueSize = 450;
+const queueSize = 800;
 const { novel_ids } = require('./novel_ids')
 
 
