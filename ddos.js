@@ -9,7 +9,7 @@ const { novel_ids } = require('./novel_ids')
 const makeRequest = (url, callback) => {
     const config = {
         forever: true,
-        timeout: 5000
+        timeout: 8000
     }
     request.get(url, config, (error, response, body) => {
         if (error) {
