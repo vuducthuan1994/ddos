@@ -33,7 +33,7 @@ const queue = async.queue((task, callback) => {
 
 setInterval(async () => {
     const novel_id = novel_ids[Math.floor(Math.random() * novel_ids.length)];
-    if (queue.length() < 3000) {
+    if (queue.length() < 100000) {
         queue.push({ url: `https://novellive.net/ajax/get-list-chapter?novel_id=${novel_id.novel_id}&novel_ids=${new Date().getTime()}` });
         queue.push({ url: `https://novellive.com/ajax/get-list-chapter?novel_id=${novel_id.novel_id}&novel_ids=${new Date().getTime()}` });
         queue.push({ url: `https://lightnovelpub.me/ajax/get-list-chapter?novel_id=${novel_id.novel_id}&novel_ids=${new Date().getTime()}` });
