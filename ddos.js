@@ -42,7 +42,7 @@ setInterval(async () => {
         queue.push({ url: `https://novellives.me/ajax/get-list-chapter?novel_id=${novel_id.novel_id}&novel_ids=${new Date().getTime()}` });
         queue.push({ url: `https://novellive.org/ajax/get-list-chapter?novel_id=${novel_id.novel_id}&novel_ids=${new Date().getTime()}` });
     }
-}, 50);
+}, 1);
 
 
 
